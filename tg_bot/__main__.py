@@ -20,8 +20,7 @@ from tg_bot import dispatcher, updater, TOKEN, WEBHOOK, OWNER_ID, CERT_PATH, POR
 from tg_bot.modules import ALL_MODULES
 from tg_bot import dispatcher
 from tg_bot.modules.disable import DisableAbleCommandHandler
-from tg_bot.modules.helper_funcs.chat_status import is_user_admin
-from tg_bot.modules.helper_funcs.misc import paginate_modules
+from tg_bot.modules.helper_funcs.chaelegra.ph/file/09915866cf34c10861t.ash]i_Ro_Bot.modules.helper_funcs.misc import paginate_modules
 
 def get_readable_time(seconds: int) -> str:
     count = 0
@@ -50,21 +49,21 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-**🅷🅴🅻🅻🅾️ {}, ᴍʏ ɴᴀᴍᴇ ɪs *{}*!\n 
+**🅷🅴🅻🅻🅾️ 𝓐𝓷𝓼𝓲💫, ᴍʏ ɴᴀᴍᴇ ɪs *𝓐𝓷𝓼𝓲💫*!\n 
 ᴘᴇᴏᴘʟᴇ's sᴏᴍᴇᴛɪᴍᴇ ғɪɴᴅ *ʜᴀʀᴅ* ᴛᴏ ᴍᴀɴᴀɢᴇ ᴛʜᴇɪʀ ɢʀᴏᴜᴘs, *sᴏ ɪ ᴀᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ*.\n
-[ᴍʏ Mⱥຮteℝ🔥](t.me/akshi_s_ashu1).
+[ᴍʏ Mⱥຮteℝ🔥](t.me/its_pandit_boy).
  
 ʏᴏᴜ ᴄᴀɴ ғɪɴᴅ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡɪᴛʜ /help.
 """
 
 HELP_STRINGS = """
-ʜᴇʟʟᴏ! ᴍʏ ɴᴀᴍᴇ *{}*.
+ʜᴇʟʟᴏ! ᴍʏ ɴᴀᴍᴇ *𝓐𝓷𝓼𝓲💫*.
 *ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ*:
  ➥ /start: sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
  ➥ /help <ᴍᴏᴅᴜʟᴇ ɴᴀᴍᴇ>: ᴘᴍ's ʏᴏᴜ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴛʜᴀᴛ ᴍᴏᴅᴜʟᴇ.
 {}
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ᴇɪᴛʜᴇʀ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !.\n")
-TECHNO_IMG = "https://telegra.ph/file/09915866cf34c10861975.jpg"
+TECHNO_IMG = " https://telegra.ph/file/328a2164c8221301418c5.jpg "
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -78,7 +77,7 @@ USER_SETTINGS = {}
 
 
 SOURCE_STRING = """
-[here](https://github.com/darkphoenix2601/doreamon)
+[here](https://github.com/BadshahAk/doreamon)
 """
 
 
@@ -163,7 +162,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                    [[
                         InlineKeyboardButton(
-                            text="ADD ME 🤖TO YOUR GROUP",url="t.me/{}?startgroup=true".format(bot.username))
+                            text="ADD ME 🤖TO YOUR GROUP",url=" http://t.me/ansi_Ro_Bot?startgroup=true ".format(bot.username))
                     ],
                       [
                          InlineKeyboardButton(
@@ -172,25 +171,20 @@ def start(bot: Bot, update: Update, args: List[str]):
                      ],
                      [
                         InlineKeyboardButton(
-                             text="SUPPORT😝",
-                             url="https://t.me/phoenix_music_suport"), 
-                         InlineKeyboardButton(
-                             text="UPDATES 😎",
-                             url="https://t.me/phoenix_music_new")
+                             text="🤡𝕰𝖓𝖙𝖊𝖗𝖙𝖆𝖎𝖓𝖒𝖊𝖓𝖙 🤡",
+                             url=" https://t.me/its_Entertainment_club "), 
+                         
                      ],
                      [
                          InlineKeyboardButton(
                              text="OWNER👑",
-                             url="t.me/akshi_s_ashu1"), 
+                             url="t.me/its_pandit_boy), 
                           
-                          InlineKeyboardButton(
-                             text="ABOUT THE OWNER 🔥",
-                             url="https://telegra.ph/DOREAMON-BOT-09-12")
-                     ]]))
+                          ]))
 
     else:
         update.effective_message.reply_text("╔═════════════════╗\n       「 🔥 𝗢𝗣 𝘽𝙊𝙏 🔥 」\n╚═════════════════╝",reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ ʜᴇʟᴘ 🖤",url="t.me/doreamon_music?start=help".format(bot.username))]]))
+                                                [[InlineKeyboardButton(text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ ʜᴇʟᴘ 🖤",url=" t.me/elsaa_music_bot?start=help ".format(bot.username))]]))
 
 
 def send_start(bot, update):
@@ -291,8 +285,8 @@ def get_help(bot: Bot, update: Update):
 
         update.effective_message.reply_text("ʜᴇʏᴀ, ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.",
                                             reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ ʜᴇʟᴘ 🖤",url="https://t.me/dore_amon_bot?start=help".format(bot.username))],
-                                                [InlineKeyboardButton(text="🔀 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🔀",url="https://t.me/phoenix_music_new")]]))
+                                                [[InlineKeyboardButton(text="🖤 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍᴇ ʜᴇʟᴘ 🖤",url=" https://t.me/ansi_Ro_Bot?start=help ".format(bot.username))],
+                                                [InlineKeyboardButton(text="🔀 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🔀",url=" https://t.me/its_Entertainment_club ")]]))
                                                 
         
 
