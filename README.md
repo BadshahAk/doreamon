@@ -1,4 +1,4 @@
-![doreamon](https://telegra.ph/file/85aaafb92adb7af39a3b7.jpg)
+![𝓐𝓷𝓼𝓲💫]( https://telegra.ph/file/bc331d5301f621aeeaf0d.jpg )
 
 # ᴡʜᴀᴛ ɪs doreamon sᴇᴄᴜʀɪᴛʏ ʙᴏᴛ
 Doreamon ʙᴏᴛ ɪs ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴍᴀɴʏ ғᴇᴀᴛᴜʀᴇs. ᴛʜɪs ʙᴏᴛ ʜᴇʟᴘs ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴇᴀsɪʟʏ.
